@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\pages",
+    "\\src\\pages\\denuncias",
+    "\\src\\pages\\detalle",
+    "\\src\\pages\\home",
+    "\\src\\pages\\listado"
+  ],
+  "SelectedNode": "\\src\\pages\\detalle\\detalle.scss",
+  "PreviewInSolutionExplorer": false
+}

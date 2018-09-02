@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{titlePage}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-label>
+    Formulario de denuncias.
+  </ion-label>
+
+  <ion-item>
+    <ion-label floating>Nombre y Apellido</ion-label>
+    <ion-input type="text" required [(ngModel)]="nombre"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Asunto</ion-label>
+    <ion-input type="text" required [(ngModel)]="asunto"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating>Descripción</ion-label>
+    <ion-textarea [attr.rows]="3" [(ngModel)]="descripcion"></ion-textarea>
+  </ion-item>
+
+</ion-content>
+
+<ion-footer no-lines no-border >
+  <ion-toolbar no-border no-lines>
+    <ion-fab right bottom>
+      <button ion-fab color="secondary" (click)="enviarDenuncia()">
+        <ion-icon name="send"></ion-icon>
+      </button>
+    </ion-fab>
+  </ion-toolbar>
+</ion-footer>

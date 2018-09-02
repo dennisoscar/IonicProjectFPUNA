@@ -1,0 +1,34 @@
+
+<ion-content bg-image no-scroll paddiing>
+    <div class="head" text-center>
+        <h1>Jahapy</h1>
+        <h5>Sharing Knowledge.Sharing Happiness</h5>
+    </div>
+  <div  class="bg">
+    <div class="inputs">
+      <ion-list padding >
+
+        <ion-item>   
+          <ion-label stacked color="dark">Email</ion-label>
+          <ion-input type="email"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked color="dark">Password</ion-label>
+          <ion-input type="password"></ion-input>
+        </ion-item>
+
+      </ion-list>
+
+
+        <!--Agregamos este boton-->
+        <button ion-button block  color="green" (click)="goToHome()">Login</button>
+        <button ion-button block  color="green" (click)="goToRegistrarse()">Create Account</button>
+
+        <button ion-button block color="facebook">
+          <ion-icon name="logo-facebook"></ion-icon>      Login with facebook
+        </button>
+    </div>
+  </div>
+  </ion-content>
+

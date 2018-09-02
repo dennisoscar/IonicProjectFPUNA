@@ -1,0 +1,7 @@
+{
+  "name": "myAppBlankFPUNA",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
