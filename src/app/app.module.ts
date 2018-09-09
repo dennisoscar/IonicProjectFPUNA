@@ -14,6 +14,8 @@ import {LoginPage} from "../pages/login/login";
 import {RegistrarsePage} from "../pages/registrarse/registrarse";
 import { CiudadesPage } from '../pages/ciudades/ciudades';
 import { DetalleCiudadPage } from '../pages/detalle-ciudad/detalle-ciudad';
+import { EspaciosVerdesPage } from '../pages/espacios-verdes/espacios-verdes';
+import { DetalleEspaciosVerdesPage } from '../pages/detalle-espacios-verdes/detalle-espacios-verdes';
 @NgModule({
   declarations: [
     MyApp,
@@ -25,12 +27,12 @@ import { DetalleCiudadPage } from '../pages/detalle-ciudad/detalle-ciudad';
     LoginPage,
     RegistrarsePage,
     CiudadesPage,
-    DetalleCiudadPage
+    DetalleCiudadPage,
+    EspaciosVerdesPage,
+    DetalleEspaciosVerdesPage
+
   ],
-  imports: [
-    BrowserModule,
-    IonicModule.forRoot(MyApp)
-  ],
+  imports: [BrowserModule, IonicModule.forRoot(MyApp)],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
@@ -42,12 +44,14 @@ import { DetalleCiudadPage } from '../pages/detalle-ciudad/detalle-ciudad';
     LoginPage,
     RegistrarsePage,
     CiudadesPage,
-    DetalleCiudadPage
+    DetalleCiudadPage,
+    EspaciosVerdesPage,
+    DetalleEspaciosVerdesPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
 export class AppModule {}

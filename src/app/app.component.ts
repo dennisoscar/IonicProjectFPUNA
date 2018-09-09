@@ -22,10 +22,10 @@ export class MyApp {
     //Las páginas que se mostrarán en el menú
     this.pages = [
       {component: HomePage, nombre: 'Inicio'},
-      {component: DenunciasPage, nombre: 'Agregar denuncia'},
-      {component: ListadoPage, nombre: 'Listado de Departamentos*'},
+      //{component: DenunciasPage, nombre: 'Agregar denuncia'},
+      //{component: ListadoPage, nombre: 'Listado de Departamentos*'},
       {component: DepartamentoPage, nombre: 'Listado de Departamentos'},
-      {component: CiudadesPage, nombre: 'Listado de Ciudades'}
+      //{component: CiudadesPage, nombre: 'Listado de Ciudades'}
     ];
 
     platform.ready().then(() => {

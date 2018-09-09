@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import {DetalleCiudadPage } from '../detalle-ciudad/detalle-ciudad';
+import { EspaciosVerdesPage } from '../espacios-verdes/espacios-verdes';
 
 /**
  * Generated class for the CiudadesPage page.
@@ -28,14 +29,7 @@ export class CiudadesPage {
   initializeCiudades() {
     this.ciudades = [
       {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
-      {nombre:'Amsterdam'},
+   
     ];
     this.ciudades  = Object.assign([], this.ciudadesiniciales);
   }
@@ -55,8 +49,8 @@ export class CiudadesPage {
     }
   }
 
-  verDetalleCiudad(ciudad) {
-    this.navCtrl.push(DetalleCiudadPage, {detalleCiudades: ciudad });
+  verEspaciosVerdes(ciudad) {
+    this.navCtrl.push(EspaciosVerdesPage, { espaciosVerdes: ciudad.espaciosVerdes });
     
 }
 

@@ -3,7 +3,7 @@ page-login {
     ion-content{
             background-image: url("../assets/images/login3.jpg");
             display: flex;
-            height: 900px;
+            height: 100%;
             background-position: center;
             background-repeat: no-repeat;
             background-size: 100% 100%;
@@ -54,6 +54,9 @@ page-login {
         left: 50%;
         transform: translate(-50%, -50%);
         width: 80%;
+        margin-top: 30%;
         opacity: 0.6;
     }
+
+   
 }           

@@ -16,7 +16,7 @@ export class DetalleCiudadPage {
    // Definimos una variable que representa el título de nuestro nuevo Page
   titlePage: string = 'Detalle';
   nombre: string = "";
-  descripcion: string = "";
+  descripcion: string = ""; 
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     let detalleciudad = navParams.get("detalleCiudades");

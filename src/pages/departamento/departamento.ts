@@ -31,10 +31,38 @@ export class DepartamentoPage {
         {
           nombre: "Asuncion",
           descripcion: "descripcion",
+          espaciosVerdes:[
+            {
+              nombre:"Ñu Gusasu",
+              descripcion:"descripcion",
+              direccion:"dirección",
+              accesibilidad:"a pie, vehiculo,colectivo,camioneta",
+              costo:"costo" ,
+              imagen: "assets/ImageEspaciosVerdes/Asunción/Nuguasu.jpg" 
+            },
+            {
+              nombre: "Jardín Botánico",
+              descripcion: "descripcion",
+              direccion: "dirección",
+              accesibilidad: "a pie, vehiculo,colectivo,camioneta",
+              costo: "costo",
+              imagen: "assets/ImageEspaciosVerdes/Asunción/JardinBotanico.jpg"
+            }
+            
+          ]
         },
         {
           nombre: "San Bernardino",
-          descripcion: "descripcion"
+          descripcion: "descripcion",
+          espaciosVerdes: [
+            {
+              nombre: "Ñu Gusasu2",
+              descripción: "descripcion",
+              direccion: "dirección",
+              accesibilidad: "a pie, vehiculo,colectivo,camioneta",
+              costo: "costo"
+            }
+          ]
         }
       ]},
       {nombre: "Paraguarí", ciudades: [
