@@ -27,10 +27,7 @@ export class CiudadesPage {
   }
 
   initializeCiudades() {
-    this.ciudades = [
-      {nombre:'Amsterdam'},
-   
-    ];
+  
     this.ciudades  = Object.assign([], this.ciudadesiniciales);
   }
 

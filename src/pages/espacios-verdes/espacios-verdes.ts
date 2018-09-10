@@ -17,6 +17,7 @@ import { DetalleEspaciosVerdesPage } from '../detalle-espacios-verdes/detalle-es
 export class EspaciosVerdesPage {
   espaciosVerdes: Array<any> = [];
   espaciosVerdesiniciales: Array<any> = [];
+  titlePage: string = 'Espacio Verde';
 
   constructor(public navParams: NavParams, public navCtrl: NavController) {
     console.log(navParams.get("espaciosVerdes"));

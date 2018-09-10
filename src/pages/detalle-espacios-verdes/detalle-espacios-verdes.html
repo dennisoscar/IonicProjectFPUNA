@@ -5,7 +5,7 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="green">
     <ion-title>
       {{ titlePage }}
     </ion-title>
@@ -21,13 +21,13 @@
 
           <ion-item>
             <ion-avatar item-start>
-              <img src="assets/ImageEspaciosVerdes/Asunción/JardinBotanico.jpg">
+              <img [src]="imagen" />
             </ion-avatar>
             <h2>{{nombre}}</h2>
             <p>November 5, 1955</p>
           </ion-item>
 
-          <img src="C:\Users\Cres&Cris\Downloads\image.jpg">
+          <img [src]="imagen" />
 
           <ion-card-content>
 
