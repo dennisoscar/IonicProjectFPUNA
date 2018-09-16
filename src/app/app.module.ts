@@ -16,6 +16,7 @@ import { CiudadesPage } from '../pages/ciudades/ciudades';
 import { DetalleCiudadPage } from '../pages/detalle-ciudad/detalle-ciudad';
 import { EspaciosVerdesPage } from '../pages/espacios-verdes/espacios-verdes';
 import { DetalleEspaciosVerdesPage } from '../pages/detalle-espacios-verdes/detalle-espacios-verdes';
+import { IonicImageViewerModule } from "ionic-img-viewer";
 @NgModule({
   declarations: [
     MyApp,
@@ -30,9 +31,8 @@ import { DetalleEspaciosVerdesPage } from '../pages/detalle-espacios-verdes/deta
     DetalleCiudadPage,
     EspaciosVerdesPage,
     DetalleEspaciosVerdesPage
-
   ],
-  imports: [BrowserModule, IonicModule.forRoot(MyApp)],
+  imports: [BrowserModule, IonicModule.forRoot(MyApp), IonicImageViewerModule],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
