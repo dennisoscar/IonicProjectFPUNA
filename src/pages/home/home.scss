@@ -13,6 +13,12 @@ page-home {
     background: linear-gradient(to right top, #3bd80d, #7fdc4b, #a9e076, #c8e4a1, #e0e8cd);
 
    }
+    .thumb-img {
+
+       padding: 0.125px;
+       width:150px;
+       height:150px;
+   };
    .image-container{
        background-size: cover;
        min-height: 200px;
@@ -36,4 +42,5 @@ page-home {
    .one-image {
        margin: 2px;
    }
+  
 }

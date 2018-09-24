@@ -1,13 +1,15 @@
 <ion-menu [content]="content">
 
-  <ion-header>
-    <ion-toolbar color="green">
-      <ion-title> Menú </ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-content>
+    <ion-item style="height: 25%; background: url('assets/imagesMenu/fondoMenu.jpg'); color: white">
+      <ion-avatar item-start>
+        <img src="assets/imagesMenu/mochila.png">
+        <br>
+        <h2>Nombre</h2>
+        <p>Nombre</p>
+      </ion-avatar>
 
-
-  <ion-content class="bg">
+    </ion-item>
     <ion-list>
       <button ion-item *ngFor="let p of pages" (click)="abrirPagina(p)">
         {{p.nombre}}
